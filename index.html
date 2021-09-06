@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Todo Papelería</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- encabezado -->
+		<div id="top-header">
+			<div class="container">
+				<ul class="header-links pull-left">
+					<li><a href=""><i class="fa fa-phone"></i> 0960496803</a></li>
+					<li><a href=""><i class="fa fa-envelope-o"></i> todopapeleria@gmail.com</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+		<!-- /cierre del encabezado -->
+
+		<!-- MAIN HEADER -->
+		<div id="header">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- LOGO -->
+					<div class="col-md-3">
+						<div class="header-logo">
+							<a href="index.html" class="logo">
+								<img src="./img/todopapeleria.jpg" alt="Logotipo todopapeleria">
+							</a>
+						</div>
+					</div>
+					<!-- /LOGO -->
+
+					<!-- buscador -->
+					<div class="col-md-6">
+						<div class="header-search">
+							<form>
+								<select class="input-select">
+									<option value="0">Todas las Categorias</option>
+									<option value="1">Escolares</option>
+									<option value="2">Arte</option>
+									<option value="3">Manualidades</option>
+								</select>
+								<input class="input" placeholder="Busca Aqui">
+								<button class="search-btn">Buscar</button>
+							</form>
+						</div>
+					</div>
+					<!-- /cierra opciones de busqueda -->
+
+					<!-- ACCOUNT -->
+					<div class="col-md-3 clearfix">
+						<div class="header-ctn">
+							<!-- Wishlist -->
+							<div>
+								<a href="#">
+									<i id="carrito" class="fa fa-heart-o"></i>
+									<span>Mis favoritos</span>
+									<div class="qty">1</div>
+								</a>
+							</div>
+							
+							<!-- /Wishlist -->
+
+							<!-- Cart -->
+							<div class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<i class="fa fa-shopping-cart" ></i>
+									<span>Carrito </span>
+									<div class="qty">3</div>
+								</a>
+								<div class="cart-dropdown">
+									<div class="cart-list">
+										<div class="product-widget">
+											<div class="product-img">
+												<img src="./img/pelikan.jpg" alt="lapices">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="pelikan.html">Lapices de colores 12 unidades</a></h3>
+												<h4 class="product-price"><span class="qty">1x</span>$5.00</h4>
+											</div>
+											<button class="delete"><i class="fa fa-close"></i></button>
+										</div>
+									</div>
+									<div class="cart-summary">
+										<small>1 Item(s) selected</small>
+										<h5>SUBTOTAL:5.00</h5>
+									</div>
+									<div class="cart-btns">
+										<a href="#" id="vaciar-carrito">Limpiar</a>
+										<a href="checkout.html">Comprar <i class="fa fa-arrow-circle-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<!-- /Cart -->
+
+							<!-- Menu Toogle -->
+							<div class="menu-toggle">
+								<a href="#">
+									<i class="fa fa-bars"></i>
+									<span>Menu</span>
+								</a>
+							</div>
+							<!-- /Menu Toogle -->
+						</div>
+					</div>
+					<!-- /ACCOUNT -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /MAIN HEADER -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<nav id="navigation">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav">
+					<li class="active"><a href="#hogar">Inicio</a></li>
+					<li><a href="#oferta">Ofertas</a></li>
+					<li><a href="#libretas">Libretas</a></li>
+					<li><a href="#pinturas">Pinturas</a></li>
+					<li><a href="#materiales">Útiles Escolares</a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /NAVIGATION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- coleccion 1 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/libreta3.jpg"
+								alt="libretas bonitas">
+						</div>
+						<div id="libretas" class="shop-body">
+							<h3>Libretas</h3>
+							<a href="#libretas" class="cta-btn"> </i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 1 -->
+
+				<!-- coleccion 2 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/img3.jpg"
+								alt="pinturas">
+						</div>
+						<div id="pinturas" class="shop-body">
+							<h3>Pinturas</h3>
+							<a href="#pinturas" class="cta-btn"> </i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 2 -->
+
+				<!-- coleccion 3 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/img1.jpg"
+								alt="cartucheras">
+						</div>
+						<div id="materiales"class="shop-body">
+							<h3>Útiles</h3>
+							<a href="#materiales" class="cta-btn"> </i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 3 -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- titulos primer apartado -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">Nuevos útiles escolares</h3>
+					</div>
+				</div>
+				<!-- /section title -->
+
+				<!-- Products tab & slick -->
+				<div class="col-md-12">
+					<div class="row" id="items">
+						<div class="products-tabs">
+							<!-- tab -->
+							<div id="tab1" class="tab-pane active">
+								<div class="products-slick" data-nav="#slick-nav-1">
+
+
+									<!-- producto numero 1 -->
+
+									<div class="product" id="producto">
+										<div class="product-img">
+											<img src="./img/libretas1.jpg"
+												alt="Libreta kiut">
+											<div class="product-label">
+												<span class="sale">-10%</span>
+												<span class="new">Nuevo</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Libreta</p>
+											<h3 class="product-name"><a href="libreta1.html".html">Libreta de llamas.</a></h3>
+											<h4 class="product-price">$7.99 <del class="product-old-price">$10.00</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar  a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="productcafetera.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito </button>
+										</div>
+									</div>
+
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/pelikan.jpg"
+												alt="lapices de colores">
+											<div class="product-label">
+												<span class="new">Nuevo</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Pinturas</p>
+											<h3 class="product-name"><a href="pelikan.html">Lápices Pelikan</a></h3>
+											<h4 class="product-price">$4.50 <del
+													class="product-old-price">$5.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="productmicroondas.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/acuarela.jpeg"
+												alt="acuarela'">
+											<div class="product-label">
+												<span class="sale">-30%</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Pinturas</p>
+											<h3 class="product-name"><a
+													href="acuarela.html">Acuarelas de colores</a>
+											</h3>
+											<h4 class="product-price">$15.00 <del
+													class="product-old-price">$20.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="acuarela.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div id= "utiles"class="product">
+										<div class="product-img">
+											<img src="./img/calculadora.jpg"
+												alt="calculadora">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Útiles escolares</p>
+											<h3 class="product-name"><a href="calculadora.html">Calculadora Pink</a></h3>
+											<h4 class="product-price">$20.00 <del
+													class="product-old-price">$25.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="productdell.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/esfero.jpeg"
+												alt="esferos">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Útiles escolares</p>
+											<h3 class="product-name"><a href="esfero.html">Esferos Bic Colores </a></h3>
+											<h4 class="product-price">$1.50 <del
+													class="product-old-price">$2.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="productmi10t.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar
+												a carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+								</div>
+								<div id="slick-nav-1" class="products-slick-nav"></div>
+							</div>
+							<!-- /tab -->
+						</div>
+					</div>
+				</div>
+				<!-- Products tab & slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- HOT DEAL SECTION -->
+	<div id="hot-deal" class="section">
+		<!-- container -->
+		<div class="container" id="oferta">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="hot-deal">
+						<ul class="hot-deal-countdown">
+							<li>
+								<div>
+									<h3>05</h3>
+									<span>Días</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>05</h3>
+									<span>Horas</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>48</h3>
+									<span>Min</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>35</h3>
+									<span>Seg</span>
+								</div>
+							</li>
+						</ul>
+						<h2 class="text-uppercase">OFERTA DE ÚTILES ESCOLARES </h2>
+						<p>HASTA EL 20% de DESCUENTO</p>
+						<a class="primary-btn cta-btn" href="#libretas">Comprar ahora</a>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /HOT DEAL SECTION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">útiles destacados </h3>
+
+					</div>
+				</div>
+				<!-- /section title -->
+
+				<!-- Products tab & slick -->
+				<div class="col-md-12">
+					<div class="row">
+						<div class="products-tabs">
+							<!-- tab -->
+							<div id="tab2" class="tab-pane fade in active">
+								<div class="products-slick" data-nav="#slick-nav-2">
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/libreta2.jpg"
+												alt="libreta">
+											<div class="product-label">
+												<span class="sale">-2%</span>
+												<span class="new">Nuevo</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Libreta Girasol</p>
+											<h3 class="product-name"><a href="libreta2.html">Libretas Girasol</a></h3>
+											<h4 class="product-price">$4.50 <del
+													class="product-old-price">$3.48</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a mis favoritos</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="libreta2.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart"></i> Agregar a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/cartuchera.png" alt="cartuchera">
+											<div class="product-label">
+												<span class="new">Útiles escolares</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Útiles escolares</p>
+											<h3 class="product-name"><a href="cartuchera.html">Cartucheras de algodón</a></h3>
+											<h4 class="product-price">$6.00 <del
+													class="product-old-price">$9.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista </span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="cartuchera.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar a carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/notas.jpg"
+												alt="notitas">
+											<div class="product-label">
+												<span class="sale">-0.5%</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Útiles escolares</p>
+											<h3 class="product-name"><a href="notas.html">Notas adhesivas</a></h3>
+											<h4 class="product-price">$1.00 <del class="product-old-price">$1.19</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="productcafetera.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar a
+												carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/resaltadores.jpg"
+												alt="resaltadores">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Pinturas</p>
+											<h3 class="product-name"><a href="resaltadores.html">Resaltadores pasteles</a></h3>
+											<h4 class="product-price">$4.99 <del
+													class="product-old-price">$6.00</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista </span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="resaltadores.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar a
+												carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/folder.jpg"
+												alt="folders">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Libretas</p>
+											<h3 class="product-name"><a href="folder.html">Carpetas universitarias</a></h3>
+											<h4 class="product-price">$5.00 <del
+													class="product-old-price">$4.00</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i
+														class="fa fa-heart-o"></i><span class="tooltipp"
+														aria-hidden="true">Agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a
+														href="folder.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i
+													class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar a
+												carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+								</div>
+								<div id="slick-nav-2" class="products-slick-nav"></div>
+							</div>
+							<!-- /tab -->
+						</div>
+					</div>
+				</div>
+				<!-- /Products tab & slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	
+	<!-- NEWSLETTER -->
+	<div id="newsletter" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="newsletter">
+						<p>Registrate para <strong>Informarte</strong></p>
+						<form>
+							<input class="input" type="email" placeholder="Coloque su correo">
+							<button class="newsletter-btn"><i class="fa fa-envelope"></i> Suscribete</button>
+						</form>
+						<ul class="newsletter-follow">
+							<li>
+								<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NEWSLETTER -->
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<!-- top footer -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Sobre Nosotros</h3>
+							<p>Nuestro horario de atencion <br> Horas:
+								<br> viernes 10:00–20:00
+								<br> sábado 10:00–20:00
+								<br> domingo 10:00–20:00
+								<br> lunes 10:00–20:00
+								<br> martes 10:00–20:00
+								<br> miércoles 10:00–20:00
+								<br> jueves 10:00–20:00
+							</p>
+							<ul class="footer-links">
+								<li><a href="#"><i class="fa fa-phone"></i>0960496803</a></li>
+								<li><a href="#"><i class="fa fa-envelope-o"></i>todopapeleria@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Categorias</h3>
+							<ul class="footer-links">
+								<li><a href="#">Ofertas</a></li>
+								<li><a href="#">Libretas</a></li>
+								<li><a href="#">Pinturas</a></li>
+								<li><a href="#">Manualidades</a></li>
+								<li><a href="#">Útiles escolares</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="clearfix visible-xs"></div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Informacion</h3>
+							<ul class="footer-links">
+								<li><a href="#">Informacion </a></li>
+								<li><a href="#">Contáctenos</a></li>
+								<li><a href="#">Politica de privacidad</a></li>
+								<li><a href="#">Pedidos y devoluciones</a></li>
+								<li><a href="#">Terminos & Condiciones</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Servicio</h3>
+							<ul class="footer-links">
+
+								<li><a href="checkout.html">Ver carrito</a></li>
+								<li><a href="#">Mis favoritos</a></li>
+								<li><a href="#">Seguir mi pedido</a></li>
+								<li><a href="#">Ayuda</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /top footer -->
+
+		<!-- bottom footer -->
+		<div id="bottom-footer" class="section">
+			<div class="container">
+				<!-- PIE DE PAGINA MOSTRANDO TARJETAS QUE ACEPTA -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<ul class="footer-payments">
+							<BR>SE ACEPTAN</BR>
+							<li> <i class="fa fa-cc-visa"> <br> VISA</i></li>
+							<li><i class="fa fa-credit-card"> <br> CREDIT CAR</i></li>
+							<li><i class="fa fa-cc-paypal"> <br> PAYPAL</i></li>
+							<li><i class="fa fa-cc-mastercard"> <br> MASTERCARD</i></li>
+							<li><i class="fa fa-cc-discover"> <br> DISCOVER</i></li>
+						</ul>
+						<span class="copyright">
+
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | Todo Papeleria
+
+						</span>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bottom footer -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/compra.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
+
